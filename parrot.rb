@@ -1,7 +1,7 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
-def parrot(array, phrase = "Squawk!")
-  array = gets.strip
+def parrot(phrase = "Squawk!")
+  phrase = gets.strip
   counter = 0
   parrot(phrase).each do |copy|
     puts "#{phrase}"
