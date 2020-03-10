@@ -5,4 +5,3 @@ def parrot(phrase = "Squawk!") #define parrot method and assign it to a string
   string = phrase.gets.strip
   puts "#{phrase}"
 end
-parrot(string)
