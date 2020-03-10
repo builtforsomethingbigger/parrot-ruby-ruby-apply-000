@@ -3,5 +3,5 @@
 def parrot(phrase = "Squawk!") #define parrot method and assign it to a string
                                #with the default "Squawk!"
   phrase.gets.strip
-  puts parrot(string)
+  parrot(string)
 end
