@@ -4,5 +4,4 @@ def parrot(string = "Squawk!") #define parrot method and assign it to a string
                                #with the default "Squawk!"
   string.gets.strip
   puts "#{string}"
-  parrot(string)
 end
