@@ -2,6 +2,6 @@
 # returns the phrase
 def parrot(phrase = "Squawk!") #define parrot method and assign it to a string
                                #with the default "Squawk!"
-  phrase.gets.strip
-  puts "#{phrase}"
+  string = phrase.gets.strip
+  puts "#{string}"
 end
