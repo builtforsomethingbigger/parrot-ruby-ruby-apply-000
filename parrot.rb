@@ -3,8 +3,10 @@
 def parrot(phrase = "Squawk!")
   phrase = gets.strip
   counter = 0
-  parrot(phrase).each do |copy|
+  if parrot(phrase) > 1
     puts "#{phrase}"
     counter += 1
+  else
+    break
   end
 end
